@@ -1,0 +1,12 @@
+#Write a Python program to reverse a word after accepting the input from the user.
+#Sample Output:
+#Input word: ineuron
+#Output: norueni
+
+word=input(print("Enter word to be reversed:"))
+print(word)
+
+newword=word[::-1]
+#meaning to start from end of string to beginning with -1 as step
+print(newword)
+
